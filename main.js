@@ -102,10 +102,10 @@ function use(opcode){
 async function main(){
     //本地存储
     function localStorageUse(k,v){
-        localStorage.setItem(GameID + '_' + k,v);
+        localStorage.setItem(ProjectID + '_' + k,v);
     }
     function localStorageGet(k){
-        return localStorage.getItem(GameID + '_' + k);
+        return localStorage.getItem(ProjectID + '_' + k);
     }
     //保存读取
     function load(){
